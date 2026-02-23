@@ -1,0 +1,44 @@
+# Media Organizer Configuration
+
+paths:
+  raw_data: "_RawData"
+  photos: "Photos"
+  videos: "Videos"
+  audio: "Audio"
+
+date_extraction:
+  priority:
+    - "EXIF"
+    - "Video Metadata"
+    - "Audio Metadata"
+    - "File Created"
+    - "File Modified"
+  fallback_to_current: true
+
+
+structure:
+  date_format: "YYYY/YYYY-MM-DD"  # Updated folder structure
+  create_empty_dirs: false
+
+
+audio:
+  categories:
+    - "Music"
+    - "Recordings"
+    - "Podcasts"
+    - "Audiobooks"
+  default_category: "Recordings"
+
+safety:
+  dry_run: false
+  backup_before_move: true
+  max_file_size_gb: 10
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(levelname)s - %(message)s"
+  file: "organizer.log"
+
+performance:
+  hash_chunk_size: 8192
+  max_workers: 4

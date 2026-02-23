@@ -1,0 +1,1 @@
+"""Media detection and categorization module"""
