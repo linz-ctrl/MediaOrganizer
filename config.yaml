@@ -17,7 +17,7 @@ date_extraction:
 
 
 structure:
-  date_format: "YYYY/YYYY-MM-DD"  # Updated folder structure
+  date_format: "YYYY/YYYY-MM-DD"  # && -Event-Description Updated folder structure
   create_empty_dirs: false
 
 

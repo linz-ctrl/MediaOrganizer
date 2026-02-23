@@ -20,14 +20,14 @@ This means your memories end up exactly where they belong: in simple, device-agn
 
 ## 📁 What Your Folders Will Look Like
 
-Say goodbye to chaos. Here is an example of what your library will look like after running the organizer:
+Here is an example of what your library will look like after running the organizer:
 
 ```text
-Photos/
+Photos or Videos/
 └── 2023/
     ├── 2023-12-25/
     │   └── christmas.jpg
-    └── 2023-11-10/
+    └── 2023-11-10-Event-Description/
         └── vacation.mp4
 
 Audio/
